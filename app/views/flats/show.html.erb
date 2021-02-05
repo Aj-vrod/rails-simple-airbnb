@@ -9,6 +9,8 @@
   <p>🛌<%= @flat.number_of_rooms %></p>
 </div>
 
-<%= link_to "Back to all flats", flats_path %>
-<%= link_to "Edit this flat", edit_flat_path(@flat) %>
-<%= link_to "Delete this flat", flat_path(@flat), method: :delete, data: { confirm: "Are you sure?" }  %>
+<div class="links">
+  <%= link_to "Back to all flats", flats_path %> <br>
+  <%= link_to "Edit this flat", edit_flat_path(@flat) %><br>
+  <%= link_to "Delete this flat", flat_path(@flat), method: :delete, data: { confirm: "Are you sure?" }  %>
+</div>
