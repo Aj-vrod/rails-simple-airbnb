@@ -1,6 +1,6 @@
 <h1>All our Flats</h1>
 <%= link_to "Create new flat", new_flat_path %>
-<p>All out <%= @flats.count %> flats</p>
+<p>All our <%= @flats.count %> flats here. Pick one!</p>
 <div class="container">
   <% @flats.each do |flat| %>
     <div class="card">
