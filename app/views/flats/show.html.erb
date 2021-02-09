@@ -3,10 +3,10 @@
 <h3>A bit more about this flat...</h3>
 <p><%= @flat.description %></p>
 <div class="more-info">
-  <p><strong>Details</strong></p>
-  <p>💁<%= @flat.number_of_guests %></p>
-  <p>💲<%= @flat.price_per_night %></p>
-  <p>🛌<%= @flat.number_of_rooms %></p>
+  <h4><strong>Details</strong></h4>
+  <p>💁 Number of guests<%= @flat.number_of_guests %></p>
+  <p>💲Price <%= @flat.price_per_night %>€/day</p>
+  <p>🛌 Number of rooms<%= @flat.number_of_rooms %></p>
 </div>
 
 <div class="links">
