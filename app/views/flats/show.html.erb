@@ -4,11 +4,12 @@
 <p><%= @flat.description %></p>
 <div class="more-info">
   <h4><strong>Details</strong></h4>
-  <p>💁 Number of guests<%= @flat.number_of_guests %></p>
-  <p>💲Price <%= @flat.price_per_night %>€/day</p>
-  <p>🛌 Number of rooms<%= @flat.number_of_rooms %></p>
+  <p>💁 Number of guests: <%= @flat.number_of_guests %></p>
+  <p>💲Price: <%= @flat.price_per_night %>€/day</p>
+  <p>🛌 Number of rooms: <%= @flat.number_of_rooms %></p>
 </div>
 
+<h4>Not this one? Let's try something else</h4>
 <div class="links">
   <%= link_to "Back to all flats", flats_path %> <br>
   <%= link_to "Edit this flat", edit_flat_path(@flat) %><br>
