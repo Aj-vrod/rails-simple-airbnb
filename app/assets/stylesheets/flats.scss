@@ -1,0 +1,32 @@
+// Place all the styles related to the Flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+body {
+  background-color: #F6F6F6;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 10px 20px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: 40px;
+}
+
+.card {
+  background-color: white;
+  width: 250px;
+  padding: 5px 10px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
