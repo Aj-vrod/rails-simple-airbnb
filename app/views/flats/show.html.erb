@@ -11,7 +11,7 @@
 
 <h4>Not this one? Let's try something else</h4>
 <div class="links">
-  <%= link_to "Back to all flats", flats_path %> <br>
-  <%= link_to "Edit this flat", edit_flat_path(@flat) %><br>
-  <%= link_to "Delete this flat", flat_path(@flat), method: :delete, data: { confirm: "Are you sure?" }  %>
+  <%= link_to "Back", flats_path %> <br>
+  <%= link_to "Edit", edit_flat_path(@flat) %><br>
+  <%= link_to "Delete", flat_path(@flat), method: :delete, data: { confirm: "Are you sure?" }  %>
 </div>
